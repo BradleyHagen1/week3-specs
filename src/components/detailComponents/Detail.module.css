@@ -13,7 +13,7 @@
       rgba(0, 0, 0, 0.8), 
       rgba(0, 0, 0, 0.8)
     ) center center fixed no-repeat,
-    url(--background);
+    /* url(--background); */
   }
   
   .details_container {

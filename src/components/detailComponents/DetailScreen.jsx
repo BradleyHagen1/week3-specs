@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import { useParams } from "react-router-dom";
 import DetailImage from "./DetailImage";
 import axios from "axios";
-import styles from "./Details.module.css";
+import styles from "./Detail.module.css";
 
 const DetailScreen = () => {  
 

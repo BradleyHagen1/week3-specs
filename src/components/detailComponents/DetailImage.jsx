@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Details.module.css";
+import styles from "./Detail.module.css";
 import moreStyles from '../homeComponents/Home.module.css'
 
 const DetailImage = ({ image, title }) => {
@@ -7,11 +7,7 @@ const DetailImage = ({ image, title }) => {
   return (
     <div
       className={moreStyles.ad_banner}
-    //   className={styles.banner}
-    //   style={{
-    //     backgroundSize: "cover",
-    //     background: `linear-gradient(190deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${image})`
-    //   }}
+  
     style={{backgroundString}}
     >
       <div className={styles.ad_text}>
