@@ -6,15 +6,18 @@ import axios from 'axios'
 
 const HomeScreen = () => {  
   const [recipes, setRecipes]=useState([])
-const url = 'https://recipes.devmountain.com/recipes'
+const url = 'https://recipes.devmountain.com'
 
   const getRecipes = () => {
+    console.log('hit')
     axios
         .get(`${url}/recipes`)
         .then((res) => {
           setRecipes(res.data)
           console.log(res.data)
         })
+
+        .catch(err => console.log(err)) 
   }
   
   useEffect (() => {

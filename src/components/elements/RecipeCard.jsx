@@ -13,7 +13,7 @@ const RecipeCard = ({recipe}) => {
     <div className={styles.recipe_card}>
       <div>
         <div className={styles.recipe_img_container}>
-          <img src="https://www.atablefullofjoy.com/wp-content/uploads/2020/02/German-Chocolate-Cake-Recipe-SQUARE.jpg" alt="cake"/>
+          <img src={recipe.image_url} alt="food"/>
         </div>
         <h3>{recipe.recipe_name}</h3>
       </div>

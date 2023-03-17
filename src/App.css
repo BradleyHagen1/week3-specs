@@ -80,7 +80,10 @@ time, mark, audio, video {
 	color:black;
   }
 
-
+ .socialIcon svg{
+	stroke: white;
+	stroke-width: 1;
+}
 
 
 

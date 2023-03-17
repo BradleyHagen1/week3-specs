@@ -14,7 +14,7 @@ function App() {
       <main>
         <Routes>
             <Route index element={<HomeScreen />} />
-            <Route path="newRecipes" element={<NewRecipeScreen />} />
+            <Route path="newRecipe" element={<NewRecipeScreen />} />
             <Route path="recipe/:id" element={<DetailScreen />} />
         </Routes>
       </main>
